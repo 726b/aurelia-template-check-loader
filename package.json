@@ -1,0 +1,32 @@
+{
+	"name": "aurelia-template-check-loader",
+	"version": "0.1.0",
+	"description": "Sanity check of Aurelia templates for Webpack",
+	"author": "Ronen Kelman",
+	"license": "MIT",
+	"main": "src/index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/726b/aurelia-template-check-loader.git"
+	},
+	"bugs": {
+		"url": "https://github.com/726b/aurelia-template-check-loader/issues"
+	},
+	"homepage": "https://github.com/726b/aurelia-template-check-loader",
+	"keywords": [
+		"aurelia",
+		"template",
+		"sanity",
+		"check",
+		"webpack",
+		"loader"
+	],
+	"dependencies": {
+		"aurelia-template-lint": "^0.10.0",
+		"loader-utils": "^2.0.0",
+		"lodash.merge": "^4.6.2"
+	},
+	"peerDependencies": {
+		"jsdom": "~11.5.1"
+	}
+}
